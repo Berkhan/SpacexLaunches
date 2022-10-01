@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+plugins {
+    id 'com.android.application' version '7.2.1' apply false
+    id 'com.android.library' version '7.2.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.10' apply false
+    id 'com.apollographql.apollo3' version '3.6.0' apply false
+    id 'com.google.dagger.hilt.android' version '2.42' apply false
+    id 'androidx.navigation.safeargs' version '2.5.1' apply false
+}
+
+ext{
+    ext {
+
+
+        lifecycle_ktx_version = "2.5.1"
+        activity_ktx_version = "1.5.1"
+        coroutines_core_version = "1.6.4"
+        coroutines_android_version = "1.6.4"
+        okHttp_interceptor_version = "5.0.0-alpha.2"
+        paging_version = "3.1.1"
+        hilt_version = "2.42"
+        navigation_version = "2.5.2"
+        apollo_runtime_version = "3.6.0"
+        apollo_coroutines_version = "2.5.13"
+        glide_version = "4.12.0"
+        mockito_version = "4.0.0"
+        mockito_inline_version = "3.0.0"
+        truth_version = "1.1.2"
+        apollo_testing = "3.6.0"
+        turbine_testing = "0.9.0"
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

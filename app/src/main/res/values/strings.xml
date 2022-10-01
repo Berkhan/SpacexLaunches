@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MidasCase</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unexpected">Unexpected error.</string>
+    <string name="list_error">Check internet connection and Retry.</string>
+    <string name="retry">retry</string>
+    <string name="content_description_media">Launch Image</string>
+</resources>
